@@ -30,6 +30,6 @@ def load_data(batch_size):
 
 
 if __name__ == "__main__":
-    train_loader, val_loader, test_loader = load_data_and_transformation(16)
+    train_loader, val_loader, test_loader = load_data(16)
     for x, y in train_loader:
         print(x.shape, y.shape)
