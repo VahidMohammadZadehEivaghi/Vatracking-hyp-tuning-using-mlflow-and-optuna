@@ -3,3 +3,4 @@ env/
 .idea/ 
 data/
 mlruns/
+__pycache__
