@@ -4,7 +4,7 @@ import mlflow
 
 if __name__ == "__main__":
 
-    tracking_uri = "https://127.0.0.1:8000"
+    tracking_uri = "https://127.0.0.1:8080"
     mlflow.set_tracking_uri(tracking_uri)
     mlflow.set_experiment("hyper-parameter-tuning")
     with mlflow.start_run(run_name="hyper-parameter-tuning"):
