@@ -4,7 +4,7 @@ from torchvision.transforms import transforms
 from torch.utils.data import random_split
 
 
-def load_data_and_transformation(batch_size):
+def load_data(batch_size):
     train_set = FashionMNIST(
         root="data",
         train=True,
